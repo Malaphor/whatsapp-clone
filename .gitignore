@@ -1,2 +1,7 @@
 node_modules
 server/node_modules
+
+cred
+cred.txt
+
+server/.env
