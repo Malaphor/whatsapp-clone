@@ -1,0 +1,134 @@
+.login {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  place-items: center;
+  background-color: #f8f8f8;
+}
+
+.loginContainer {
+  box-sizing: border-box;
+  height: 570px;
+  width: 470px;
+  padding: 100px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.loginContainer > img {
+  object-fit: contain;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.loginButtons {
+  margin-bottom: 30px;
+}
+
+.loginButtons button {
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  background: white;
+}
+
+.loginButtons button.active {
+  border-bottom: 2px solid blue;
+}
+
+.signInOptionsContainer > button {
+  margin: 20px auto;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.signInOptionsContainer iframe {
+  width: 100%;
+}
+
+.qJTHM {
+  text-align: center;
+}
+
+.loginButton,
+.backToLoginButton,
+.googleLoginButton,
+.emailLoginButton,
+.createAccountButton {
+  margin-top: 0 !important;
+  text-transform: inherit !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.loginButton,
+.createAccountButton,
+.googleLoginButton,
+.loginButton {
+  background-color: #0a8d48 !important;
+}
+
+.googleLoginButton {
+  width: 100% !important;
+}
+
+.emailLoginButton {
+  width: 100% !important;
+  background-color: #007bff !important;
+}
+
+.backToLoginButton {
+  margin-right: 20px !important;
+  background-color: silver !important;
+}
+
+.register {
+  position: relative;
+}
+
+.form-group > input {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.passwordPattern {
+  position: absolute;
+  top: 40px;
+  right: -260px;
+  padding: 10px;
+  text-align: left;
+  font-size: small;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.passwordPattern > span {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  transform: rotate(45deg);
+}
+
+.passwordPattern p {
+  position: relative;
+  z-index: 1;
+}
+
+.passwordPattern .invalid {
+  color: red;
+}
+
+.passwordPattern .valid {
+  color: green;
+}
